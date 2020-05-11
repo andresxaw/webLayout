@@ -5,30 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <title></title>
+  <title>Don Mensajero - Mensajería Especializada en Ecommerce</title>
+  <meta name="description" content="Mensajería especializada en comercios electrónicos">
   <style>
     *{margin: 0;padding: 0;border:none;background: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-    body{font-family: 'Open Sans', sans-serif;color: #333;font-size: 10px} li{list-style: none;}
+    body{font-family: 'Montserrat', sans-serif;color: white; background-color: #303030;font-size: 10px} li{list-style: none;}
     .container{width: 100%; padding: 0 1em}
     .line{display: inline-block;}.middle{vertical-align:middle}.bottom{vertical-align: bottom}.top{vertical-align: top }
     .right, .left, .center{text-align: center}
     .dark{font-weight: 700}.normal{font-weight: 400}
     .relative{position:relative}
     .section{padding:5em 0;}
-    .aside{padding:2em 0;}
+    .aside{padding:2em 0 !important;}
 
-    .w0,.w10,.w20,.w30,.w40,.w50,.w60,.w70,.w80,.w90{width: 100%}
+    .w0,.w10,.w20,.w30,.w40,.w50,.w60,.w70,.w80,.w90,.w100{width: 100%}
     .w40f{width: 40%}.w50f{width: 50%}.w60f{width: 60%}
 
-    .buttom{font-weight: 700; box-shadow: 0px 2px 2px 2px rgba(0,0,0,.2);border-radius: 10px; padding: .5em 2em; transition: background-color .5s ease}
-    .pc{display: none}
-    .buttom:hover{position: relative;top: -1px;background-color: #FDBC0D}
-        
+    .buttom{background-color: black;
+      color: #e8a479;
+      text-transform: uppercase;
+      padding: .8em 2em;
+      font-weight: 600;
+      -webkit-transition: all .5s ease-out;
+      transition: all .5s ease-out;
+      border: 1px solid #e8a479;
+      -webkit-box-shadow: 0 2px 3px 1px rgba(0,0,0,.3);
+      box-shadow: 0 2px 3px 1px rgba(0,0,0,.3);
+    }
 
+    .pc{display: none}
+    .buttom:hover{position: relative;top: -1px;background-color: #e8a479; color:black}
+        
+    .c-white{
+      color: white
+    }
+
+    .c-golden{
+      color: #e8a479
+    }
+
+    .c-black{
+      color: black
+    }
 
     .menu{padding:1em;background-color: white;width: 100%}
-    .inicio{padding: 5em 0; background-image: url('img/inicio.jpg'); background-size: cover; background-position: -10em center }
-    body{padding-top:3.37em;}
+    .inicio{padding: 5em 0; background-image: url('img/inicio.jpg'); background-size: cover; background-position: -10em center; border-bottom: 5px solid #e8a479}
+    body{padding-top:2.6em;}
     .allrights{padding: 2em 0;}
 
 
@@ -36,33 +58,106 @@
     a{text-decoration:none; color:#333; display: inline-block;}
 
     .fs-xxlarge{font-size: 2.8em}
-    .fs-large{font-size:2.6em;}
-    .fs-medium{font-size:1.6em;}
-    .fs-normal{font-size:1.4em}
+    .fs-large{font-size:2em;}
+    .fs-medium{font-size:1.2em;}
+    .fs-normal{font-size:1.1em}
     .fs-little{font-size: 1.1em;}
     .marginTC{margin-bottom: 2em}
     .maUD{margin: 2em 0}
     
-    .principal-list{margin: 1.6em 0 0 3em; font-weight: 700}
-    .list-icon{height: 2.2em;}
+    .principal-list{margin: 1.6em 0 0 3em;}
+    .list-icon{height: 2.5em; margin-right: .6em}
 
-    .logo{height: 7em;}
     .icon{height: 1.2em;}
+
+    .bg-golden{
+      padding: .8em;
+      background-color: #e8a479;
+    }
+
+    .logo{
+      height: 3.2em;
+    }
+
+    .contact-bar{
+      background-color: #B57F5E;
+      padding: .5em 1em;
+      color: white;
+      position: fixed;
+      width: 100%;
+      top: 0
+    }
+
+    .conditions{
+      font-size: 1em;
+      margin-top: 1em; 
+    }
+
+    .conditions2{
+      margin-top: 2em; 
+    }
+
+    .title{
+      font-size: 1.4em;
+      margin-bottom: 1em;
+    }
+
+    .paragraph{
+      margin-bottom: 1em;
+    }
+
+    .paragraph, .list{
+      font-size: 1.2em
+    }
+
+    .lateral-panel{
+      padding: 5em 1em;
+    }
+
+    .list-item{
+      margin-bottom: .5em;
+    }
+
+    .process-icon{
+      height: 5em;
+      margin: 2em 0 .5em 0;
+    }
+
+    .process{
+      background-color: #212121;
+    }
+
+    .process-paragraph{
+      margin: 0 .5em 1em .5em
+    }
+
+    .footer-item{
+      margin-top: .5em
+    }
+
+    .rights{
+      font-size: .8em;
+      margin-top: 2em
+    }
  
     @media(min-width:941px){
-        .container{width: 76%;margin-left: 12%}
+        .container{width: 80%;margin-left: 10%}
         .columns3{width: 32.5%;display: inline-block;} .columns2{ width: 48.5%;display: inline-block;}.columns4{width: 24.5%;display: inline-block;}
         .right{text-align: right}.center{text-align: center}.left{text-align: left}
 
-        .w90{width: 90%}.w80{width: 80%}.w70{width: 70%}.w60{width: 60%}.w50{width: 50%}.w40{width: 40%}.w30{width: 30%}.w20{width: 20%}.w10{width: 10%}.w0{width: initial}
+        .w90{width: 90%}.w80{width: 80%}.w70{width: 70%}.w60{width: 60%}.w50{width: 49.5%}.w40{width: 40%}.w30{width: 30%}.w20{width: 20%}.w10{width: 10%}.w0{width: initial}
         .pc{display: inline-block;}
         .mobile{display: none}
         .section{padding:10em 0;}
 
         .menu{position: fixed;top:0}
-        body{padding-top:9.52em;}
+        body{padding-top:5.1em;}
         .inicio{padding: 15em 0; background-position: center center}
         .maUD{margin:0}
+        .lateral-panel{
+          padding: 2em;
+        }
+  
     }
     @media(min-width:1367px){
 
@@ -70,48 +165,115 @@
   </style>
 </head>
 <body>
-    <div id="Contact-Bar" class="bg-yellow fs-normal center mobile">
-        <a class="dark line" href="https://wa.me/573222459733?text=Hola,%20me%20interesa%20obtener%20más%20información%20de%20la%20licencia%20de%20conducción%20(A2%20Servicio%20Particular)"><img  class="line middle icon" src="img/whatsapp-b.png" alt="wa"> 322 245 9733</a>
+    <div id="Contact-Bar" class="bg-yellow fs-normal center mobile contact-bar">
+        <a class="dark line c-white" href="https://wa.me/573507858064?text=Hola, quiero cotizar el valor de un envío"><img  class="line middle icon" src="img/whatsapp-b.png" alt="wa"> 350 785 8064</a>
     </div>
-    <div id="Menu" class="menu center" >
+    <div id="Menu" class="menu center bg-golden" >
         <div class="columns2  middle left">
             <img class="logo" src="img/logo.png" alt="logo">
         </div>
         <div class="columns2 right middle fs-normal pc" >
             <ul> 
                  <li class="line separar">
-                     <a class="line middle" href="https://wa.me/573107727822?text=Hola,%20me%20interesa%20obtener%20más%20información%20acerca%20de%20los%20pases%20de%20conducción"text>
+                     <a class="line middle" href="https://wa.me/573507858064?text=Hola, quiero cotizar el valor de un envío"text>
                         <img  class="line middle icon" src="img/whatsapp.png" alt="wa">
-                        <p class="line middle dark c-blue">322 245 9733</p>
+                        <p class="line middle dark c-blue">350 785 8064</p>
                      </a>
-                </li>
-                <li class="line separar">
-                    <a class="line middle" href="tel:0317571135">
-                        <img class="line middle icon"src="img/telefono-logo.png" alt="telefonoFijo">
-                        <p class="line middle dark c-blue" >(1) 757 1135</p>
-                    </a>    
                 </li>
             </ul>
         </div>
     </div>
     <div id="Inicio" class="inicio">
       <div class="container" >
-          <h1 class="fs-large left">Academia de Conducción Certificada</h1>
+          <h1 class="fs-large left">Mensajería Especializada en Ecommerce en Bogotá</h1>
           <ul>
-              <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Más de 8 años de experiencia  <p></p></li>
-              <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Clases teóricas en nuestras sedes <p></p></li>
-              <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Clases de domingo a domingo <p></p></li>
-              <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Pagos diferidos durante el curso <p></p></li>
+              <li class="principal-list left"><img class="list-icon line middle" src="img/pointer1.png" alt=""> <p class="fs-medium line middle"> Entregamos tus pedidos y recaudamos el dinero </p></li>
+              <li class="principal-list left"><img class="list-icon line middle" src="img/pointer2.png" alt=""> <p class="fs-medium line middle"> Costo de envío contra entrega de $10.000*</p></li>
+              <li class="principal-list left"><img class="list-icon line middle" src="img/pointer3.png" alt=""> <p class="fs-medium line middle"> Costo del envío SIN recaudo de $7.000*</p></li>
+              <li class="principal-list left"><img class="list-icon line middle" src="img/pointer4.png" alt=""> <p class="fs-medium line middle"> Cambios para tus clientes $8.000*</p></li>
+              <li class="principal-list left"><img class="list-icon line middle" src="img/pointer5.png" alt=""> <p class="fs-medium line middle"> Promesa de entrega de 1 día<p></p></li>
               <li class="principal-list main-button left">
-                <a class="buttom bg-yellow fs-normal" href="https://wa.me/573107727822?text=Hola,%20me%20interesa%20obtener%20más%20información%20de%20la%20licencia%20de%20conducción%20(A2%20Servicio%20Particular)"><img  class="line middle icon" src="img/whatsapp-b.png" alt="wa"> ¡Cotizar Ahora!</a>
+                <a class="buttom bg-yellow fs-normal" href="https://wa.me/573507858064?text=Hola, quiero cotizar el valor de un envío">¡Cotizar Ahora!</a>
+                <div class="conditions">*Precios de lanzamiento (Bogotá y Soacha) - Paquetes máximo 5kg</div>
               </li>
           </ul>
       </div>
   </div>
+  <section class="center">
+    <div class="right">
+      <div class="w50 line middle lateral-panel">
+        <h3 class="title">¿Por qué nace <span class="c-golden">DON MENSAJERO</span>?</h3>
+  
+        <p class="paragraph">Los fundadores de <span class="c-golden">DON MENSAJERO</span> se encontraron con que no le podían ofrecer a sus clientes el servicio de <span class="c-golden">pago contra entrega</span> en sus tiendas virtuales por las siguientes razones:</p>
+  
+        <ol class="list">
+          <li class="list-item"><span class="dark c-golden">1.</span> Las transportadoras solamente hacen este servicio a grandes empresas</li>
+          <li class="list-item"><span class="dark c-golden">2.</span> Los costos de los envíos contra entrega son bastante altos</li>
+          <li class="list-item"><span class="dark c-golden">3.</span> Las transportadoras tienen un pesimo servicio al cliente</li>
+          <li class="list-item"><span class="dark c-golden">4.</span> Las transportadoras tienen tiempos de entregas de hasta más de 5 días</li>
+        </ol>
+      </div>
+      <div class="w50 line middle">
+        <img class="w100" src="/img/box.jpg" alt="Persona con caja">
+      </div>
+    </div>
+  </section>
+
+  <section class="section center process">
+    <div class="container">
+      <h3 class="title">¿Cómo funciona <span class="c-golden">DON MENSAJERO</span>?</h3>
+
+      <ol class="list">
+        <li class="columns4 top">
+          <img src="/img/first.png" alt="" class="process-icon">
+          <div class="process-paragraph">
+            <span class="dark c-golden">1.</span>
+            Contáctate con nosotros para saber costos y programar recogida
+          </div>
+          <a class="buttom" href="https://wa.me/573507858064?text=Hola, quiero cotizar el valor de un envío">¡Contactar!</a>
+        </li>
+        <li class="columns4 top">
+          <img src="/img/second.png" alt="" class="process-icon">
+          <div class="process-paragraph">
+            <span class="dark c-golden">2.</span>
+            Recogemos tus paquetes y los entregamos en máximo 1 día
+          </div>
+        </li>
+        <li class="columns4 top">
+          <img src="/img/third.png" alt="" class="process-icon">
+          <div class="process-paragraph">
+            <span class="dark c-golden">3.</span>
+            Te informaremos cuando tus pedidos sean entregados
+          </div>  
+        </li>
+        <li class="columns4 top">
+          <img src="/img/fourth.png" alt="" class="process-icon">
+          <div class="process-paragraph">
+            <span class="dark c-golden">4.</span>
+            Si tus pedidos son contra entrega te consignaremos el dinero recaudado el siguiente hábil después de la entrega**
+          </div>
+        </li>
+      </ol>
+      <div class="conditions w70 line conditions2">
+        **Los recaudos recogidos serán consignados exclusivamente en cuentas Nequi, Bancolombia, Daviplata o Davivienda 
+      </div>
+    </div>
+  </section>
+
+  <footer class="aside bg-golden center">
+    <div class="container">
+      <img src="/img/logo.png" alt="" class="logo">
+      <div class="footer-item c-black">Dirección: Calle 37b sur 68i 23</div>
+      <div><a class="footer-item c-black" href="tel:3507858064">Cel: 3507858064</a></div>
+    </div>
+    <div class="rights c-black">
+      Todos los derechos reservados a Don Mensajero 2020
+    </div>
+  </footer>
     
     <script type="text/javascript">
         WebFontConfig = {
-          google: { families: [ 'Open+Sans:400,700' ] }
+          google: { families: [ 'Montserrat:400,600' ] }
         };
         (function() {
           var wf = document.createElement('script');
